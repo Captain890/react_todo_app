@@ -1,0 +1,124 @@
+.container-fluid{
+    background-color:rgb(20, 15, 20);
+    color: lavender;
+    display: flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif  
+}
+.child-div{
+    margin: 15px;
+    width:400px;
+    background-color: #ffffff15;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 8px;
+    background-color:rgb(23, 22, 23);
+}
+img{
+    border: 2 px solid;
+    border-radius: 10 px;
+    padding: 10px 0px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.fig-caption{
+    text-align: center;
+    text-shadow: 2px;
+    font-size: 20px;
+    margin-top: 2px;
+}
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+.button-icons{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+}
+.plusIcon{
+    background-color: forestgreen;
+    color: white;
+    font-size: large;
+    width: 50px;
+}
+.trashIcon{
+    background-color: crimson;
+    color: white;
+}
+.checkIcon{
+    background-color: forestgreen;
+    color: white;
+}
+.editIcon{
+    color: black;
+}
+.levelUpIcon{
+    background-color: green;
+    color: white;
+}
+.levelDownIcon{
+    background-color:indianred;
+    color: white;
+}
+.iconSave{
+    background-color: forestgreen;
+    color: white;
+}
+.todo_list{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(
+        90deg,
+        rgba(255, 118, 20, 1) 0%,
+        rgba(255, 84, 17, 1) 100%
+    );
+    width: 100%;  
+}
+.todo_list:nth-child(4n+1){
+    background: linear-gradient(
+        90deg,
+        rgba(93, 12, 255, 1) 0%,
+        rgba(155, 0, 250, 1) 100%
+    );
+}
+.todo_list:nth-child(4n+2){
+    background: linear-gradient(
+        90deg,
+        rgba(255, 12, 241, 1) 0%,
+        rgba(250, 0, 135, 1) 100%
+    );
+}
+.todo_list:nth-child(4n+3){
+    background: linear-gradient(
+        90deg,
+        rgba(20, 159, 255, 1) 0%,
+        rgba(17, 122, 255, 1) 100%
+    );
+}
+.textbox{
+    width: 100%;
+    padding: 6px 12px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+
+
